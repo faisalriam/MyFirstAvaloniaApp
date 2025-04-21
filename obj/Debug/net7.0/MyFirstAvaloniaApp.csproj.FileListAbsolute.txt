@@ -5,6 +5,9 @@
 /home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/MyFirstAvaloniaApp.AssemblyInfoInputs.cache
 /home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/MyFirstAvaloniaApp.AssemblyInfo.cs
 /home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/MyFirstAvaloniaApp.csproj.CoreCompileInputs.cache
+/home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/Avalonia/MyFirstAvaloniaApp.dll
+/home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/Avalonia/MyFirstAvaloniaApp.pdb
+/home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/refint/Avalonia/MyFirstAvaloniaApp.dll
 /home/duck/QuackLab/MyFirstAvaloniaApp/bin/Debug/net7.0/MyFirstAvaloniaApp
 /home/duck/QuackLab/MyFirstAvaloniaApp/bin/Debug/net7.0/MyFirstAvaloniaApp.deps.json
 /home/duck/QuackLab/MyFirstAvaloniaApp/bin/Debug/net7.0/MyFirstAvaloniaApp.runtimeconfig.json
@@ -61,9 +64,6 @@
 /home/duck/QuackLab/MyFirstAvaloniaApp/bin/Debug/net7.0/runtimes/win-arm64/native/libSkiaSharp.dll
 /home/duck/QuackLab/MyFirstAvaloniaApp/bin/Debug/net7.0/runtimes/win-x64/native/libSkiaSharp.dll
 /home/duck/QuackLab/MyFirstAvaloniaApp/bin/Debug/net7.0/runtimes/win-x86/native/libSkiaSharp.dll
-/home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/Avalonia/MyFirstAvaloniaApp.dll
-/home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/Avalonia/MyFirstAvaloniaApp.pdb
-/home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/refint/Avalonia/MyFirstAvaloniaApp.dll
 /home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/MyFirstA.BC55336B.Up2Date
 /home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/MyFirstAvaloniaApp.genruntimeconfig.cache
 /home/duck/QuackLab/MyFirstAvaloniaApp/obj/Debug/net7.0/ref/MyFirstAvaloniaApp.dll

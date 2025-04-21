@@ -21,9 +21,20 @@ namespace MyFirstAvaloniaApp
                 int number2 = int.Parse(Input2.Text);
                 int sum = number1 + number2;
 
-                if (radiobutton.IsChecked == true)
+                if (radiobutton1.IsChecked == true)
                 {
                     Result.Text = sum.ToString();
+                }else if (radiobutton2.IsChecked == true)
+                {
+                    Result.Text = (number1 - number2).ToString();
+                }
+                else if (radiobutton3.IsChecked == true)
+                {
+                    Result.Text = (number1 * number2).ToString();
+                }
+                else if (radiobutton4.IsChecked == true)
+                {
+                    Result.Text = (number1 / number2).ToString();
                 }
                 else
                 {

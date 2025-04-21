@@ -9,19 +9,24 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBox x:Name="Input1"  Grid.Row="0" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="Input2"  Grid.Row="1" Grid.Column="0" Margin="5"/>
-        <RadioButton x:Name="radiobutton" Content="Addition" Grid.Row="1" Grid.Column="1" Margin="5"/>
-        <Button Content="Calculate" Grid.Row="2" Grid.Column="0" Margin="5" Click="OnAddClicked"/>
+        <TextBox x:Name="Input1"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="5"/>
+        <TextBox x:Name="Input2"  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="5"/>
+        <RadioButton x:Name="radiobutton1" Content="Addition" Grid.Row="2" Grid.Column="0" Margin="5"/>
+        <RadioButton x:Name="radiobutton2" Content="Subtraction" Grid.Row="2" Grid.Column="1" Margin="5"/>
+        <RadioButton x:Name="radiobutton3" Content="Multiplication" Grid.Row="2" Grid.Column="2" Margin="5"/>
+        <RadioButton x:Name="radiobutton4" Content="Division" Grid.Row="2" Grid.Column="3" Margin="5"/>
+        <Button Content="Calculate" Grid.Row="3" Grid.Column="0" Margin="5" Click="OnAddClicked"/>
 
-        <TextBox x:Name="Result" Text="" Grid.Row="1" Grid.Column="2" Margin="5"/>
+        <TextBox x:Name="Result" Text="" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Margin="5"/>
     </Grid>
 </Window>
