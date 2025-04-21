@@ -1,0 +1,71 @@
+<UserControl
+    x:Class="MyFirstAvaloniaApp.Views.SimpleAllOperationCal"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBox
+            x:Name="Input1"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Margin="5" />
+        <TextBox
+            x:Name="Input2"
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Margin="5" />
+        <RadioButton
+            x:Name="radiobutton1"
+            Grid.Row="2"
+            Grid.Column="0"
+            Margin="5"
+            Content="Addition" />
+        <RadioButton
+            x:Name="radiobutton2"
+            Grid.Row="2"
+            Grid.Column="1"
+            Margin="5"
+            Content="Subtraction" />
+        <RadioButton
+            x:Name="radiobutton3"
+            Grid.Row="2"
+            Grid.Column="2"
+            Margin="5"
+            Content="Multiplication" />
+        <RadioButton
+            x:Name="radiobutton4"
+            Grid.Row="2"
+            Grid.Column="3"
+            Margin="5"
+            Content="Division" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="0"
+            Margin="5"
+            Click="OnAddClicked"
+            Content="Calculate" />
+
+        <TextBox
+            x:Name="Result"
+            Grid.Row="1"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Margin="5"
+            Text="" />
+    </Grid>
+</UserControl>

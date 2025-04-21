@@ -26,3 +26,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/home/duck/QuackLab/MyFirstAvaloniaApp/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/duck/QuackLab/MyFirstAvaloniaApp/Views/simpleAllOperationCal.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
