@@ -5,13 +5,13 @@ using MyFirstAvaloniaApp.Views;
 
 namespace MyFirstAvaloniaApp
 {
-    public partial class MainWindow : Window
+   public partial class MainWindow : Window
+{
+    public MainWindow()
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-            MainContent.Content = new SimpleAllOperationCal(); // Set SimpleAllOperationCal as the content
-        }
+        InitializeComponent();
+        MainContent.Content = new SimpleAllOperationCal();
+    }
 
         private void InitializeComponent()
         {

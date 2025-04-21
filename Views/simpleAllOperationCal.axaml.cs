@@ -23,8 +23,8 @@ namespace MyFirstAvaloniaApp.Views
         {
             try
             {
-                int number1 = int.Parse(Input1.Text);
-                int number2 = int.Parse(Input2.Text);
+                int number1 = int.Parse(Input1.Text ?? "0");
+                int number2 = int.Parse(Input2.Text ?? "0");
                 int sum = number1 + number2;
 
                 if (radiobutton1.IsChecked == true)
